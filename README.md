@@ -23,6 +23,13 @@ git clone https://github.com/Wanderer946/Facial_Attributes_Recognization_Based_O
 cd Facial_Attributes_Recognization_Based_On_MobileNetV2
 ```
 ### 🛠Dependencies
+- In conda:
+Create the environment with:
+```bash
+conda env create -f environment.yaml
+conda activate face_attr
+```
+- In pip:
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
