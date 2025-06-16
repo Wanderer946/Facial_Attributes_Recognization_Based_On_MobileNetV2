@@ -19,7 +19,7 @@ graph TD
 ## 📦Prerequisites
 Download the project:
 ```
-git clone https://github.com/Wanderer946/Facial_Attributes_Recognization_Based_On_MobileNetV2
+git clone https://github.com/Wanderer946/Facial_Attributes_Recognization_Based_On_MobileNetV2.git
 cd Facial_Attributes_Recognization_Based_On_MobileNetV2
 ```
 ### 🛠Dependencies
