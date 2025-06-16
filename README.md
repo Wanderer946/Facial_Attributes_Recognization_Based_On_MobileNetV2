@@ -1,0 +1,2 @@
+# Facial_Attributes_Recognization_Based_On_MobileNetV2
+A face multi-attribute classification method based on MobileNetV2
