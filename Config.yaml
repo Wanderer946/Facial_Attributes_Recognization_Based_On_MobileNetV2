@@ -1,0 +1,27 @@
+# Dir
+IMG_DIR: Dataset/img
+MODEL_DIR: Model/MobileNet
+
+# Path
+LABEL_PATH: Dataset/list_attr.txt
+PARTITION_PATH: Dataset/list_partition_1000.txt
+LOG_PATH: Log/train.log
+
+# Attributes（黑发、眼镜、浓妆、男性、胡子、白皮肤、微笑、卷发、帽子、年轻人）（1为active，-1为negative）
+ATTRIBUTES: ['Black_Hair', 'Eyeglasses', 'Heavy_Makeup', 'Male', 'Mustache', 'Pale_Skin', 'Smiling', 'Wavy_Hair', 'Wearing_Hat', 'Young']
+
+BATCH_SIZE: 32
+IMAGE_SIZE: [218, 178]
+NUM_WORKERS: 3
+
+TOTAL_EPOCH: 50
+SAVE_FREQUENCE: 5
+LEARNING_RATE: 0.001
+
+SAVE_MODEL: False
+SAVE_BEST_MODEL: False
+SAVE_TO_TENSORBOARD: True
+SAVE_LOG: True
+RESUME_TRAIN: False
+USE_CUDA: True
+
