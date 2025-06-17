@@ -201,10 +201,13 @@ Real Label   : [0. 0. 0. 1. 0. 0. 1. 0. 0. 1.]
 Test Loss  : 0.2952, Test Acc  : 0.9033
 ```
 You can view the training effect intuitively on Tensorboard:
-![43336c11edaca8b7729813138ecfb83f](https://github.com/user-attachments/assets/db8f7f03-9b6b-43d0-9ecc-ee4b9a4cdef9)
+Change value of alpha:
+![image](https://github.com/user-attachments/assets/401772fb-0729-418c-a9ba-dc4da78f8787)
 
-![473ee8e60d8ddc47c0ed3aeb66e1d78a](https://github.com/user-attachments/assets/057080d5-debc-4e16-a399-7b43c4c6c651)
+Change the number of img:
+![image](https://github.com/user-attachments/assets/0bffbbf9-2863-41a2-8da3-e8903d3d44a7)
 
+Viridis effect of different layer:
 ![4e9431ef6ce0f4f4aecf76931b4b53c1](https://github.com/user-attachments/assets/ebacb931-79a3-4027-ae4a-d440d4dfe162)
 
 
