@@ -79,8 +79,10 @@ Project_Root/
 │  └─readme.md                   # 数据集说明文档
 ├─Log                            # 日志文件夹（训练过程记录与TensorBoard日志）
 │  └─Board                       # TensorBoard 可视化日志
-│      ├─MobileNet-1000          # 针对1000图像训练的TensorBoard记录
-│      ├─MobileNet-2000
+│      ├─MobileNet-1000-0.25    # 1000图像α=0.25训练的TensorBoard记录
+│      ├─MobileNet-1000-0.50    # 1000图像α=0.50训练的TensorBoard记录
+│      ├─MobileNet-1000-1.00    # 1000图像α=1.00训练的TensorBoard记录
+│      ├─MobileNet-2000          # 2000图像α=1.00训练的TensorBoard记录
 │      ├─MobileNet-3000
 │      └─MobileNet-3000-lr-damp # 降学习率版本的训练记录
 │  ├─console.log                 # 训练期间的控制台输出日志
@@ -201,17 +203,17 @@ Real Label   : [0. 0. 0. 1. 0. 0. 1. 0. 0. 1.]
 Test Loss  : 0.2952, Test Acc  : 0.9033
 ```
 You can view the training effect intuitively on Tensorboard:
-Change value of alpha:
+**Change value of alpha:**
 ![image](https://github.com/user-attachments/assets/401772fb-0729-418c-a9ba-dc4da78f8787)
 
-Change the number of img:
+**Change the number of img:**
 ![image](https://github.com/user-attachments/assets/0bffbbf9-2863-41a2-8da3-e8903d3d44a7)
 
-Viridis effect of different layer:
+**Viridis effect of different layer:**
 ![4e9431ef6ce0f4f4aecf76931b4b53c1](https://github.com/user-attachments/assets/ebacb931-79a3-4027-ae4a-d440d4dfe162)
 
 
 ## 🙏Acknowledgments
 - The implementation is based on PyTorch.
 - MobileNetV2 was introduced in MobileNetV2: Inverted Residuals and Linear Bottlenecks.
-- Dataset structure follows the format of CelebA.
+- Dataset is from CelebA.
